@@ -1,0 +1,49 @@
+object ViewComponentsProgress: TViewComponentsProgress
+  Align = Client
+  Size.Width = 582.000000000000000000
+  Size.Height = 18.000000000000000000
+  Size.PlatformDefault = False
+  object recProgress: TRectangle
+    Align = Contents
+    Fill.Color = xFFEDEDED
+    Padding.Top = 2.000000000000000000
+    Padding.Bottom = 2.000000000000000000
+    Size.Width = 582.000000000000000000
+    Size.Height = 18.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFF909090
+    XRadius = 8.000000000000000000
+    YRadius = 8.000000000000000000
+    object Label1: TLabel
+      Align = Contents
+      StyledSettings = [Family, Size]
+      Size.Width = 582.000000000000000000
+      Size.Height = 18.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = xFF4E4E4E
+      TextSettings.HorzAlign = Center
+      Text = 'Aguarde, o lote esta sendo processado...'
+      TabOrder = 0
+    end
+    object recEffectProgress: TRectangle
+      Align = Left
+      Fill.Color = xFF2F94C1
+      Position.Y = 2.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 14.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 7.000000000000000000
+      YRadius = 7.000000000000000000
+      object FloatAnimation1: TFloatAnimation
+        Duration = 5.000000000000000000
+        Loop = True
+        OnFinish = FloatAnimation1Finish
+        PropertyName = 'Margins.Left'
+        StartValue = 0.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+    end
+  end
+end

@@ -1,0 +1,32 @@
+object ViewComponentsButton: TViewComponentsButton
+  Cursor = crHandPoint
+  Size.Width = 166.000000000000000000
+  Size.Height = 71.000000000000000000
+  Size.PlatformDefault = False
+  object recSalvar: TRectangle
+    Align = Client
+    Fill.Color = xFF2F94C1
+    Locked = True
+    HitTest = False
+    Size.Width = 166.000000000000000000
+    Size.Height = 71.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 22.500000000000000000
+    YRadius = 22.500000000000000000
+    object lblSalvar: TLabel
+      Align = Client
+      Cursor = crHandPoint
+      StyledSettings = [Family, Style]
+      Locked = True
+      Size.Width = 166.000000000000000000
+      Size.Height = 71.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'SALVAR'
+      TabOrder = 0
+    end
+  end
+end

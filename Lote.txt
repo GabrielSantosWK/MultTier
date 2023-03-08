@@ -1,0 +1,9 @@
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos

@@ -1,0 +1,265 @@
+object ViewEndereco: TViewEndereco
+  Size.Width = 960.000000000000000000
+  Size.Height = 608.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Contents
+    Fill.Color = x507D7D7D
+    Size.Width = 960.000000000000000000
+    Size.Height = 608.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object recBase: TRectangle
+    Align = Center
+    Fill.Color = claWhite
+    Size.Width = 791.000000000000000000
+    Size.Height = 390.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFF2F94C0
+    XRadius = 8.000000000000000000
+    YRadius = 8.000000000000000000
+    inline ComponentsEditUF: TViewComponentsEdit
+      Position.X = 635.000000000000000000
+      Position.Y = 249.000000000000000000
+      Size.Width = 126.000000000000000000
+      Size.Height = 74.000000000000000000
+      Size.PlatformDefault = False
+      inherited layEdti: TLayout
+        Size.Width = 126.000000000000000000
+        Size.Height = 54.000000000000000000
+        inherited recBorder: TRectangle
+          Size.Width = 126.000000000000000000
+          Size.Height = 31.000000000000000000
+          inherited Field: TEdit
+            Text = '02'
+            Size.Width = 86.000000000000000000
+            Size.Height = 31.000000000000000000
+          end
+        end
+        inherited lblCaption: TLabel
+          Size.Width = 116.000000000000000000
+          Text = 'UF'
+        end
+      end
+    end
+    inline ViewComponentsEditCep: TViewComponentsEdit
+      Position.X = 28.000000000000000000
+      Position.Y = 30.000000000000000000
+      Size.Width = 677.000000000000000000
+      Size.Height = 74.000000000000000000
+      Size.PlatformDefault = False
+      inherited layEdti: TLayout
+        Size.Width = 677.000000000000000000
+        Size.Height = 54.000000000000000000
+        inherited recBorder: TRectangle
+          Size.Width = 677.000000000000000000
+          Size.Height = 31.000000000000000000
+          inherited Field: TEdit
+            Text = '02'
+            Size.Width = 637.000000000000000000
+            Size.Height = 31.000000000000000000
+          end
+        end
+        inherited lblCaption: TLabel
+          Size.Width = 667.000000000000000000
+          Text = 'CEP'
+        end
+      end
+    end
+    inline ViewComponentsEditCidade: TViewComponentsEdit
+      Position.X = 28.000000000000000000
+      Position.Y = 249.000000000000000000
+      Size.Width = 599.000000000000000000
+      Size.Height = 74.000000000000000000
+      Size.PlatformDefault = False
+      inherited layEdti: TLayout
+        Size.Width = 599.000000000000000000
+        Size.Height = 54.000000000000000000
+        inherited recBorder: TRectangle
+          Size.Width = 599.000000000000000000
+          Size.Height = 31.000000000000000000
+          inherited Field: TEdit
+            Text = '02'
+            Size.Width = 559.000000000000000000
+            Size.Height = 31.000000000000000000
+          end
+        end
+        inherited lblCaption: TLabel
+          Size.Width = 589.000000000000000000
+          Text = 'Cidade'
+        end
+      end
+    end
+    inline ViewComponentsEditLogradouro: TViewComponentsEdit
+      Position.X = 28.000000000000000000
+      Position.Y = 103.000000000000000000
+      Size.Width = 454.000000000000000000
+      Size.Height = 74.000000000000000000
+      Size.PlatformDefault = False
+      inherited layEdti: TLayout
+        Size.Width = 454.000000000000000000
+        Size.Height = 54.000000000000000000
+        inherited recBorder: TRectangle
+          Size.Width = 454.000000000000000000
+          Size.Height = 31.000000000000000000
+          inherited Field: TEdit
+            Text = '02'
+            Size.Width = 414.000000000000000000
+            Size.Height = 31.000000000000000000
+          end
+        end
+        inherited lblCaption: TLabel
+          Size.Width = 444.000000000000000000
+          Text = 'Logradouro'
+        end
+      end
+    end
+    inline ViewComponentsEditBairro: TViewComponentsEdit
+      Position.X = 490.000000000000000000
+      Position.Y = 103.000000000000000000
+      Size.Width = 271.000000000000000000
+      Size.Height = 74.000000000000000000
+      Size.PlatformDefault = False
+      inherited layEdti: TLayout
+        Size.Width = 271.000000000000000000
+        Size.Height = 54.000000000000000000
+        inherited recBorder: TRectangle
+          Size.Width = 271.000000000000000000
+          Size.Height = 31.000000000000000000
+          inherited Field: TEdit
+            Text = '02'
+            Size.Width = 231.000000000000000000
+            Size.Height = 31.000000000000000000
+          end
+        end
+        inherited lblCaption: TLabel
+          Size.Width = 261.000000000000000000
+          Text = 'Bairro'
+        end
+      end
+    end
+    inline ViewComponentsEditComplemento: TViewComponentsEdit
+      Position.X = 28.000000000000000000
+      Position.Y = 176.000000000000000000
+      Size.Width = 733.000000000000000000
+      Size.Height = 74.000000000000000000
+      Size.PlatformDefault = False
+      inherited layEdti: TLayout
+        Size.Width = 733.000000000000000000
+        Size.Height = 54.000000000000000000
+        inherited recBorder: TRectangle
+          Size.Width = 733.000000000000000000
+          Size.Height = 31.000000000000000000
+          inherited Field: TEdit
+            Text = '02'
+            Size.Width = 693.000000000000000000
+            Size.Height = 31.000000000000000000
+          end
+        end
+        inherited lblCaption: TLabel
+          Size.Width = 723.000000000000000000
+          Text = 'Complemento'
+        end
+      end
+    end
+    inline ViewComponentsButton1: TViewComponentsButton
+      Cursor = crHandPoint
+      Position.X = 635.000000000000000000
+      Position.Y = 327.000000000000000000
+      Size.Width = 126.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = ViewComponentsButton1Click
+      inherited recSalvar: TRectangle
+        Size.Width = 126.000000000000000000
+        Size.Height = 46.000000000000000000
+        inherited lblSalvar: TLabel
+          Size.Width = 126.000000000000000000
+          Size.Height = 46.000000000000000000
+        end
+      end
+    end
+    inline ViewComponentsButton2: TViewComponentsButton
+      Cursor = crHandPoint
+      Position.X = 493.000000000000000000
+      Position.Y = 327.000000000000000000
+      Size.Width = 126.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = ViewComponentsButton2Click
+      inherited recSalvar: TRectangle
+        Fill.Color = xFFE00E0E
+        Size.Width = 126.000000000000000000
+        Size.Height = 46.000000000000000000
+        inherited lblSalvar: TLabel
+          Size.Width = 126.000000000000000000
+          Size.Height = 46.000000000000000000
+          Text = 'CANCELAR'
+        end
+      end
+    end
+    object imgCep: TImage
+      MultiResBitmap.Height = 40
+      MultiResBitmap.Width = 40
+      MultiResBitmap = <
+        item
+          Width = 40
+          Height = 40
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000280000002808060000008CFEB8
+            6D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            0205494441545847ED983F68145110872FDA8B88DA48400495A8854524A08D8D
+            8D8D686763298904414D822620D63682A088626FA1A2D80A8236FE2120081144
+            C5464B0956010BF3FDBC1918965DBDF7D8BDDB623FF89863D87B6F6ED8BD796C
+            AFA3A3E3DF8C591C9463B8D73C68FEC065FC802BF81447C25DFC33802FF0100E
+            0D75EB3B160B59C537F825E4A2D7B1713663DCF4375EC2DD18D1758751DD8BD7
+            DFC6467989BED96BDC8EFFE306C62275DF36C215F44D1E2891C019F4EFFEC471
+            AC15FD6ADF600D37612A8FD1D778A4449D5C405F7C46890CA6D0D7D043562BF7
+            D1179F502293B7E8EBEC5422950D168BECB7F80B3FF63F66F1CEA2D8673189AA
+            020F58FC643197E71685FFE824AA0AF47B668BC55C7658145F2D265155A066AB
+            D885FA13CEE58845F1DE621255056AF03B59F78EE105AA7B1A89B57102FDE9D3
+            F8CAE126FA1AF794A89B67E81B687CA57014FDBB72126B672B6A8AF8261A5F83
+            A0D34F2C2E754C26710AE3661A5F9A10552C60BC5E5EC54699C6E2A69A10B7F0
+            24CEE1132C3B33BA97B15174B4FF8C659B977907D5B998BB888DB20D1F6255A7
+            BEA10EA87176AB73F19A591C0A1AFCC7711E4FE31EAC429D8B459EC5D6A1CEC5
+            22CF61EB50E76291E7B175A873B1C8C61F9C1CD4B958A4FE3B5B47F1C159C4D6
+            519C3AA513A7EAB8350CF4E661A9FFF12FA5B56CB4382A5EA1BAA71704D794E8
+            E8E848A2D75B073F24B9DAFD47FE070000000049454E44AE426082}
+          FileName = 
+            'C:\Projetos\Delphi\MultiTier\Src\File\Images\search_FILL0_wght40' +
+            '0_GRAD0_opsz48.png'
+        end>
+      Cursor = crHandPoint
+      Position.X = 709.000000000000000000
+      Position.Y = 52.000000000000000000
+      Size.Width = 52.000000000000000000
+      Size.Height = 31.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+      OnClick = imgCepClick
+    end
+    inline ViewComponentsLoad: TViewComponentsLoad
+      Align = Contents
+      Size.Width = 791.000000000000000000
+      Size.Height = 377.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+      inherited Rectangle1: TRectangle
+        Size.Width = 791.000000000000000000
+        Size.Height = 377.000000000000000000
+      end
+    end
+    object lblError: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Margins.Top = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 791.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = xFFE00E0E
+      TextSettings.HorzAlign = Center
+      TabOrder = 1
+    end
+  end
+end

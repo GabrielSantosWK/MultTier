@@ -1,0 +1,20 @@
+object ViewComponentsLoad: TViewComponentsLoad
+  Align = Contents
+  Size.Width = 682.000000000000000000
+  Size.Height = 493.000000000000000000
+  Size.PlatformDefault = False
+  object AniIndicator: TAniIndicator
+    Align = Center
+    Size.Width = 185.000000000000000000
+    Size.Height = 169.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Rectangle1: TRectangle
+    Align = Contents
+    Fill.Color = x0FC6C6C6
+    Size.Width = 682.000000000000000000
+    Size.Height = 493.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+end

@@ -1,0 +1,23 @@
+Para configurar o banco nome do banco de dados e a senha deve acessar os arquivos Config.Ini
+
+TesteMultiTier\MultiTierServer\Src\Bin\Exe\Config.ini
+TesteMultiTier\MultiTierServerLote\Src\Bin\Exe\Config.ini
+
+------------------------------------------------------------------------------------------------
+
+Existe dois serviço que precisa ser iniciado para aplicação cliente (MultiTier.exe) poder consumir 
+São eles
+MultiServerLote.exe
+MultiServer.exe
+
+------------------------------------------------------------------------------------------------
+
+O conjunto da aplicação esta ocupando a porta 8080 8081 8082 e porta do banco de dados PostgreSql
+
+MultiServerLote (8081,8082)
+MultiServer (8080)
+PostgreSQL(5432)
+
+-------------------------------------------------------------------------------------------------
+
+O arquivo de exemplo para o envio em lote sera disponibilizado na raiz

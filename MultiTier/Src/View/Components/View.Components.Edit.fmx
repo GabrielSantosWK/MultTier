@@ -1,0 +1,52 @@
+object ViewComponentsEdit: TViewComponentsEdit
+  Size.Width = 665.000000000000000000
+  Size.Height = 84.000000000000000000
+  Size.PlatformDefault = False
+  object layEdti: TLayout
+    Align = Client
+    Locked = True
+    Margins.Bottom = 20.000000000000000000
+    Size.Width = 665.000000000000000000
+    Size.Height = 64.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object recBorder: TRectangle
+      Align = Client
+      Fill.Kind = None
+      Locked = True
+      Size.Width = 665.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF2F94C0
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      object Field: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        StyleLookup = 'transparentedit'
+        TabOrder = 0
+        KeyboardType = NamePhonePad
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Size.Width = 625.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Size, Style]
+      end
+    end
+    object lblCaption: TLabel
+      Align = Top
+      StyledSettings = [Family, Size, Style]
+      Locked = True
+      Margins.Left = 10.000000000000000000
+      Margins.Bottom = 6.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 655.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = xFF0D0D0D
+      Text = 'CPF/CNPJ'
+      TabOrder = 1
+    end
+  end
+end

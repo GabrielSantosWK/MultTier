@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8C6DCFE0-3C55-46B8-9891-30D3DDD5E7A4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MultiServerLote\MultiServerLote.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MultiTierServer\MultiTierServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MultiTier\MultiTier.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MultiServerLote">
+        <MSBuild Projects="MultiServerLote\MultiServerLote.dproj"/>
+    </Target>
+    <Target Name="MultiServerLote:Clean">
+        <MSBuild Projects="MultiServerLote\MultiServerLote.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultiServerLote:Make">
+        <MSBuild Projects="MultiServerLote\MultiServerLote.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MultiTierServer">
+        <MSBuild Projects="MultiTierServer\MultiTierServer.dproj"/>
+    </Target>
+    <Target Name="MultiTierServer:Clean">
+        <MSBuild Projects="MultiTierServer\MultiTierServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultiTierServer:Make">
+        <MSBuild Projects="MultiTierServer\MultiTierServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MultiTier">
+        <MSBuild Projects="MultiTier\MultiTier.dproj"/>
+    </Target>
+    <Target Name="MultiTier:Clean">
+        <MSBuild Projects="MultiTier\MultiTier.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultiTier:Make">
+        <MSBuild Projects="MultiTier\MultiTier.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MultiServerLote;MultiTierServer;MultiTier"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MultiServerLote:Clean;MultiTierServer:Clean;MultiTier:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MultiServerLote:Make;MultiTierServer:Make;MultiTier:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

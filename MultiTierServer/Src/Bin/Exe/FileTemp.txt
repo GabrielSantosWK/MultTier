@@ -1,0 +1,17 @@
+----------------------------594254074046180111266032
+Content-Disposition: form-data; name=""; filename="Lote.txt"
+Content-Type: text/plain
+
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+flnatureza:01;dsdocumento:10602865999;nmprimeiro:gabriel;nmsegundo:santos;dscep:87205040;dsuf:PR;nmcidade:cianorte;nmbairro:zona06;nmlogradouro:rua parecis;dscomplemento:fundos
+----------------------------594254074046180111266032--
